@@ -1,6 +1,6 @@
 {
-  "name": "@divyenduz/ts-graphql-plugin",
-  "version": "0.1.0",
+  "name": "@hex-inc/ts-graphql-plugin",
+  "version": "0.1.1",
   "description": "",
   "main": "out/index.js",
   "scripts": {
