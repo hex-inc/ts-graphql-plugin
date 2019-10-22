@@ -127,7 +127,7 @@ export default class GraphQLLanguageServiceProxy
           };
           return transformedDiagnostic;
         })
-        .filter(diagnostic => !diagnostic.messageText.includes("xxxxxxxxxxx"));
+        .filter(diagnostic => !diagnostic.messageText.match(/Syntax Error: Unexpected Name "x+"/));
       this._logger(
         `transformedDiagnostics: ${JSON.stringify(transformedDiagnostics)}`
       );
