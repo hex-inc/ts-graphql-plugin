@@ -127,7 +127,7 @@ export default class GraphQLLanguageServiceProxy
           };
           return transformedDiagnostic;
         })
-        .filter(diagnostic => !diagnostic.messageText.includes("xxxxxxxxxxxx"));
+        .filter(diagnostic => !diagnostic.messageText.includes("xxxxxxxxxxx"));
       this._logger(
         `transformedDiagnostics: ${JSON.stringify(transformedDiagnostics)}`
       );
